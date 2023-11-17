@@ -10,7 +10,7 @@ export class MedicationsService {
 
   
 
-  baseUrl:string = "http://52.15.202.158:9090/medications";
+  baseUrl:string = "http://3.21.167.235:9090/medications";
 
   constructor(public http:HttpClient) { }
 

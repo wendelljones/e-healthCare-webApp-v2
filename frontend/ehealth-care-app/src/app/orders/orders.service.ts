@@ -8,7 +8,7 @@ import { Order } from './orders';
 })
 export class OrdersService {
 
-  public baseUrl:string = "http://52.15.202.158:9090/ehealthcare/orders"
+  public baseUrl:string = "http://3.21.167.235:9090/ehealthcare/orders"
   constructor(public httpClient:HttpClient) { }
 
   orderPlaced(order:Order):Observable<any> {

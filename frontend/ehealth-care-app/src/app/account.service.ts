@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AccountService {
-      public baseUrl:string="http://52.15.202.158:9090/ehealthcare/patient/account";
+      public baseUrl:string="http://3.21.167.235:9090/ehealthcare/patient/account";
   constructor(public httpClient:HttpClient) { }
 
   findBalance(emailid:any):Observable<any> {

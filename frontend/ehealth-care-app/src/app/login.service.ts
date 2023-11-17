@@ -7,7 +7,7 @@ import { Login } from './login';
 })
 export class LoginService {
 
-  baseUrl:string="http://52.15.202.158:9090/login";
+  baseUrl:string="http://3.21.167.235:9090/login";
 
   constructor(public http:HttpClient) { }
 
